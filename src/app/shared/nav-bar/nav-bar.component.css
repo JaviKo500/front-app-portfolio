@@ -1,7 +1,4 @@
-body{
-    display: block;
-    overflow-x: hidden;
-}
+
 
 nav{
     background-color: white;
@@ -21,11 +18,29 @@ nav{
 
 nav ul li a{
     color: #a9a9a9;
-    font-size: 22px;
+    font-size: 20px;
+    border-radius: 10px;
     cursor: pointer;
     margin: auto 10px;
 }
 
 nav ul li a:hover{
     color: #683aa4;
+}
+
+span a{
+    color: #a9a9a9;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: auto 5px;
+}
+span a:hover{
+    background-color: rgba(154, 95, 237, 0.5);
+    color: whitesmoke;
+}
+
+.active-link{
+    background-color: rgba(154, 95, 237, 0.5);
+    color: whitesmoke !important;
 }

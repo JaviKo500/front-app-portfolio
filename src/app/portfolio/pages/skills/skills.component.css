@@ -1,0 +1,18 @@
+.card {
+    margin-bottom: 20px;
+}
+.interest-par{
+    width: 200px;
+    color: #683aa4;
+    border: 1px solid #683aa4;
+}
+.interest-impar{
+    width: 200px;
+    border: 1px solid ;
+    color: whitesmoke;
+    background-color: #683aa4;
+}
+p{
+    margin: 0;
+    padding: 7.5px;
+}
