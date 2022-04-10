@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { FooterComponent } from './footer/footer.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { RouterModule } from '@angular/router';
+import { ComponentsModule } from '../components/components.module';
 
 
 
@@ -15,6 +16,7 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     CommonModule,
+    ComponentsModule,
     RouterModule
   ]
 })
