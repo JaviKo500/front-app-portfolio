@@ -1,0 +1,11 @@
+<div class="card-contact d-flex justify-content-around flex-wrap text-center fadeIn">
+    <div    class="card-contact-body mb-2 rounded-2" 
+            [ngClass]="getClass(i)" 
+            *ngFor="let social of socialMedias, let i = index"
+            (click)="openNewTab(social.url!)">
+        <p class="mt-1"> 
+            <i [class]="social.icon"></i>
+            {{social.name}}
+        </p>
+    </div>
+</div>

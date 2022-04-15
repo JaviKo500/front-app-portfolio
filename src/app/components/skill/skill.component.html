@@ -1,0 +1,20 @@
+<div class="card"  *ngFor="let skill of skills">
+    <div class="card-body">
+        <h5 class="card-title">{{ skill.title }}</h5>
+        <div class="row">
+            <div class="col-9">
+                <p class="card-text">
+                    {{ skill.subtitle }}                
+                </p>
+                <div class="" *ngIf="skill.description">
+                    <p class="card-text" *ngFor="let des of skill.description">
+                        {{ des }}                
+                    </p>
+                </div>
+            </div>
+            <div class="col-3">
+                <img *ngFor="let icon of skill.icons" src="./assets/icons/{{icon}}" >
+            </div>
+        </div>
+    </div>
+  </div>

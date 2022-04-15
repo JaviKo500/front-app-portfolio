@@ -1,0 +1,23 @@
+.card-contact{
+    min-height: 121px;
+}
+.card-contact-body{
+    cursor: pointer;
+}
+.interest-par{
+    width: 200px;
+    height: 50px;
+    color: #683aa4;
+    border: 1px solid #683aa4;
+}
+.interest-impar{
+    width: 200px;
+    height: 50px;
+    border: 1px solid ;
+    color: whitesmoke;
+    background-color: #683aa4;
+}
+p{
+    margin: 0;
+    padding: 7.5px;
+}

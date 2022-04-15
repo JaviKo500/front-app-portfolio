@@ -1,0 +1,8 @@
+<h5 class="mb-3"> Some of my interests</h5>
+<div class="d-flex justify-content-around flex-wrap text-center">
+    <div class="mb-2 rounded-2" [ngClass]=" getClass(i) "  *ngFor="let interest of interests, let i = index">
+        <p> 
+            {{interest.name}}
+        </p>
+    </div>
+</div>

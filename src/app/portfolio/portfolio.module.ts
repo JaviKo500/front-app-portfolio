@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { PortfolioRoutingModule } from './portfolio-routing.module';
 
+import { ComponentsModule } from '../components/components.module';
 import { SharedModule } from '../shared/shared.module';
 
 import { HomeComponent } from './pages/home/home.component';
@@ -16,8 +17,9 @@ import { SkillsComponent } from './pages/skills/skills.component';
   declarations: [HomeComponent, PortfolioComponent, ProjectsComponent, ContactMeComponent, SkillsComponent],
   imports: [
     CommonModule,
+    ComponentsModule,
     PortfolioRoutingModule,
-    SharedModule
+    SharedModule,
   ]
 })
 export class PortfolioModule { }

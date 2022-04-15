@@ -2,139 +2,24 @@
 <section id="home">
     <div class="container">
         <div class="row mt-5">
+            <h1>Skills</h1>
             <div class="col-sm-12 col-md-6 col-xl-6 col-xxl-6">
-                <div class="row mt-5">
+                <div class="row mt-1">
                     <div class="col-12">
-                      <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Mobile Development</h5>
-                            <div class="row">
-                                <div class="col-10">
-                                    <p class="card-text">Estoy desarrollando   aplicaciones android y ios usando la plataforma flutter.</p>
-                                </div>
-                                <div class="col-2">
-                                    <img src="./assets/icons/flutter.png" >
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Backend  Development</h5>
-                            <div class="row">
-                                <div class="col-9">
-                                    <p class="card-text">
-                                        Estoy desarrollando aplicaciones backend usando spring boot, nodejs con buenos conocimientos en estos frameworks.
-                                    </p>
-                                </div>
-                                <div class="col-3 ">
-                                    <img src="./assets/icons/node.png" >
-                                    <img src="./assets/icons/spring.png" >
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">FrontEnd Development</h5>
-                            <div class="row">
-                                <div class="col-10">
-                                    <p class="card-text">Estoy desarrollando aplicaciones SPA usando Angular.</p>
-                                </div>
-                                <div class="col-2">
-                                    <img src="./assets/icons/angular.png" >
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Data Base</h5>
-                            <div class="row">
-                                <p class="card-text">
-                                    Uso dos tipos de base de datos.
-                                </p>
-                                <div class="col-9">
-                                    <p class="card-text">
-                                        <b>Sql: </b>MySQL - PostgreSQL
-                                    </p>
-                                    <p class="card-text">
-                                        <b>No-Sql: </b>MongoDB
-                                    </p>
-                                </div>
-                                <div class="col-3">
-                                    <img src="./assets/icons/postgresql.png" >
-                                    <img src="./assets/icons/mongodb.png" >
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Version Control System</h5>
-                            <div class="row">
-                                <div class="col-9">
-                                    <p class="card-text">
-                                        Uso git para el control de versiones de mi código, además uso GitHub y GitLab para el alojaminto de código remoto.
-                                    </p>
-                                </div>
-                                <div class="col-3">
-                                    <img src="./assets/icons/git.png" class="m-1">
-                                    <img src="./assets/icons/github.png" >
-                                </div>
-                            </div>
-                        </div>
-                      </div>
+                        <app-skill class=""></app-skill>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-xl-6 col-xxl-6">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 fadeIn">
                         <img src="./assets/img/profile.png" alt="about me" class="img-fluid">
                     </div>
-                    <div class="col-12 ">
-                        <h5 class="mb-3"> Some of my interests</h5>
-                        <div class="d-flex justify-content-around flex-wrap text-center">
-                            <div class="interest-impar mb-2 rounded-2">
-                                <p> 
-                                    Fútbol
-                                </p>
-                            </div>
-                            <div class="interest-par mb-2 rounded-2">
-                                <p> 
-                                    Escuchar música
-                                </p>
-                            </div>
-                            <div class="interest-impar mb-2 rounded-2">
-                                <p> 
-                                    Ver películas
-                                </p>
-                            </div>
-                            <div class="interest-par mb-2 rounded-2">
-                                <p> 
-                                    Matemáticas
-                                </p>
-                            </div>
-                            <div class="interest-impar mb-2 rounded-2">
-                                <p> 
-                                    Resolver problemas
-                                </p>
-                            </div>
-                            <div class="interest-par mb-2 rounded-2">
-                                <p> 
-                                    Aprender
-                                </p>
-                            </div>
-                        </div>
+                    <div class="col-12">
+                        <app-aptitudes></app-aptitudes>
+                    </div>
+                    <div class="col-12">
+                        <app-interest></app-interest>
                     </div>
                 </div>
             </div>
