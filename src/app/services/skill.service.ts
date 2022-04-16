@@ -41,7 +41,7 @@ export class SkillService {
     },
     {
       title: 'Version Control System',
-      subtitle: 'Uso git para el control de versiones de mi código, además uso GitHub y GitLab para el alojaminto de código remoto.',
+      subtitle: 'Uso git para el control de versiones de mi código, además uso GitHub y GitLab para el alojamiento de código remoto.',
       icons: [
         'git.png',
         'github.png',
