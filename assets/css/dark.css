@@ -1,0 +1,30 @@
+body{
+    background-color: #333333;
+}
+section h1{
+    color: #683aa4;
+}
+section h3{
+    color: #683aa4;
+}
+h5{
+    color: whitesmoke;
+}
+
+p{
+    color: whitesmoke;
+}
+p small{
+    color: whitesmoke;
+}
+
+/* navbar */
+
+
+.bg-light{
+    background-color: #232323 !important;
+}
+
+.card{
+    background-color: #666666;
+}
