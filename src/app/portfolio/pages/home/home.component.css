@@ -2,3 +2,8 @@
     background-color: #683aa4;
     color: whitesmoke;
 }
+.link{
+    text-decoration: none;
+    color: #683aa4;
+    font-weight: 500;
+}

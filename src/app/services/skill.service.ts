@@ -10,7 +10,7 @@ export class SkillService {
   private _skills: Skill [] = [
     {
       title: 'Mobile Development',
-      subtitle: 'Estoy desarrollando aplicaciones android y ios usando la plataforma flutter.',
+      subtitle: 'Estoy desarrollando aplicaciones android y ios usando el framework flutter.',
       icons: [
         'flutter.png'
       ]
@@ -25,7 +25,7 @@ export class SkillService {
     },
     {
       title: 'FrontEnd Development',
-      subtitle: 'Estoy desarrollando aplicaciones SPA usando Angular.',
+      subtitle: 'Estoy desarrollando aplicaciones SPA usando el framework Angular.',
       icons: [
         'angular.png'
       ]
@@ -74,7 +74,7 @@ export class SkillService {
       name: 'Me apasiona el código'
     },
     {
-      name: 'Full Stack'
+      name: 'Junior Web Developer'
     },
     {
       name: 'Rápido aprendizaje'
