@@ -14,8 +14,8 @@ h5{
 p{
     color: whitesmoke;
 }
-p small{
-    color: whitesmoke;
+p .text-muted{
+    color: rgb(207, 204, 204) !important;
 }
 
 /* navbar */
@@ -28,3 +28,4 @@ p small{
 .card{
     background-color: #666666;
 }
+
