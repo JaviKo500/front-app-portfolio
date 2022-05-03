@@ -17,6 +17,9 @@ p{
 .text-muted{
     color: rgb(207, 204, 204) !important;
 }
+p small{
+    color: rgb(207, 204, 204) !important;
+}
 
 /* navbar */
 
